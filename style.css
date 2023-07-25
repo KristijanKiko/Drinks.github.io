@@ -1,0 +1,60 @@
+/* The rest of your CSS styles remain unchanged */
+.universe-background{
+    background-image: url("https://starwalk.space/gallery/images/what-is-space/1140x641.jpg");
+    color: white;
+    padding: 13px;
+
+}
+.Container{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Body {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.Nav{
+    background-color: black;
+    padding: 13px;
+}
+
+.Nav a{
+    background-color: green;
+    color: white;
+    padding: 13px;
+}
+
+.Nav a:hover{
+    background-color: darkgreen;
+}
+
+.Body .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.Body img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.Body h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Body h3:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
